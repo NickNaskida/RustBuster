@@ -1,16 +1,13 @@
 fn main() {
     let welcome_message = r#"
-       ___           __       ___  _     ____                 __
-      / _ \__ _____ / /___ __/ _ \(_)___/ __/__ ___ _________/ /
-     / , _/ // (_-</ __/ // / // / / __/\ \/ -_) _ `/ __/ __/ _ \
-    /_/|_|\_,_/___/\__/\_, /____/_/_/ /___/\__/\_,_/_/  \__/_//_/
-                      /___/
+       ___           __  ___           __
+      / _ \__ _____ / /_/ _ )__ _____ / /____ ____
+     / , _/ // (_-</ __/ _  / // (_-</ __/ -_) __/
+    /_/|_|\_,_/___/\__/____/\_,_/___/\__/\__/_/
 
-    _______________________
-    By NickNaskida
-
-    Github: https://github.com/NickNaskida
-    Project: https://github.com/NickNaskida/RustyDirSearch
+                                      By @NickNaskida
+    _________________________________________________
+    Github: https://github.com/NickNaskida/RustBuster
     "#;
 
     println!("{}", welcome_message);
